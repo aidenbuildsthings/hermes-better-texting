@@ -21,7 +21,7 @@ These are separate assistant messages sent at different points in one task, not 
 Install from GitHub using Hermes's skills command:
 
 ```text
-hermes skills install aidenbuildsthings/hermes-better-texting
+hermes skills install https://raw.githubusercontent.com/aidenbuildsthings/hermes-better-texting/main/SKILL.md
 ```
 
 Then invoke it in a messaging chat with `/better-texting`, or ask Hermes to use the better-texting skill. Hermes loads skills on demand, so installation alone does **not** make it run in every conversation.
